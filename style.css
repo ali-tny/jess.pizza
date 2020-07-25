@@ -1,5 +1,63 @@
+@font-face {
+    font-family: 'jesspizzaregular';
+    src: url('static/jesspizza-regular-webfont.woff2') format('woff2'),
+         url('static/jesspizza-regular-webfont.woff') format('woff');
+         url('static/jesspizza-regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
-	font:40px arial, sans-serif;
-	font-style:italic;
+	font: 60px jesspizzaregular, sans-serif;
     text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+body {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #fcd7e8 2px, transparent 1px),
+    linear-gradient(to bottom, #fcd7e8 2px, transparent 1px);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-item {
+    background-color: none;
+    font: 25px jesspizzaregular, sans-serif;
+    text-align: center;
+}
+
+.list-title {
+    font: 35px jesspizzaregular, sans-serif;
+    font-weight: bold;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pink-zone {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcd7e8;
+    margin: 5%;
+    padding: 5%;
 }
