@@ -8,7 +8,7 @@
 }
 
 h1 {
-	font: 60px jesspizzaregular, sans-serif;
+	font: 80px jesspizzaregular, sans-serif;
     text-align: center;
     font-weight: bold;
 }
@@ -31,33 +31,17 @@ ul {
 
 .list-item {
     background-color: none;
-    font: 25px jesspizzaregular, sans-serif;
+    font: 45px jesspizzaregular, sans-serif;
     text-align: center;
 }
 
 .list-title {
-    font: 35px jesspizzaregular, sans-serif;
+    font: 55px jesspizzaregular, sans-serif;
     font-weight: bold;
 }
 
-.outer {
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .pink-zone {
-    margin-left: auto;
-    margin-right: auto;
     background-color: #fcd7e8;
     margin: 5%;
-    padding: 5%;
+    padding: 1%;
 }
