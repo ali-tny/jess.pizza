@@ -3,6 +3,7 @@
     src: url('static/jesspizza-regular-webfont.woff2') format('woff2'),
          url('static/jesspizza-regular-webfont.woff') format('woff');
          url('static/jesspizza-regular.otf') format('otf');
+	 url('static/Jesspizza_numbers_specials-Regular.otf') format('otf);
     font-weight: normal;
     font-style: normal;
 }
